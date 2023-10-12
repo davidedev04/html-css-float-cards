@@ -13,6 +13,11 @@
 
 /* stili conteeenuto */
 
+#title{
+    color: rgb(255, 42, 124);
+    font-size: 40px;
+}
+
 #titolo-sottotitolo {
     text-align: center;
     width: 70%;
@@ -28,7 +33,7 @@
 }
 
 #row {
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -37,6 +42,33 @@
     float: left;
 }
 
+.card{
+    background-color: rgb(23, 23, 23);
+    margin-top: 40px;
+    margin-right: 20px;
+    height: 100px;
+}
+
 .img-style{
     width: 100px;
+    float: left;
+}
+
+.descrizione{
+    margin-left: 110px;
+}
+
+.nome{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.professione{
+    color: rgb(220, 220, 220);
+}
+
+.mail{
+    text-decoration:none;
+    color:rgb(55, 208, 254);
 }
