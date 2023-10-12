@@ -7,8 +7,7 @@
 }
 
 :root {
-    font-family: 'Exo 2', sans-serif;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 
 /* stili conteeenuto */
@@ -16,12 +15,17 @@
 #title{
     color: rgb(255, 42, 124);
     font-size: 40px;
+    font-weight: bold;
 }
 
 #titolo-sottotitolo {
     text-align: center;
     width: 70%;
     margin: 0 auto;
+}
+
+#titolo-sottotitolo p{
+    font-size: 20px;
 }
 
 #titolo-sottotitolo h2 {
