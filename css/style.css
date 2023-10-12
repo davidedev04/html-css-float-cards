@@ -1,0 +1,42 @@
+/* stili generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* stili conteeenuto */
+
+#titolo-sottotitolo {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#titolo-sottotitolo h2 {
+    margin: 40px 0;
+}
+
+#titolo-sottotitolo p {
+    margin-bottom: 40px;
+}
+
+#row {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.colonna {
+    width: calc(100% / 3);
+    float: left;
+}
+
+.img-style{
+    width: 100px;
+}
